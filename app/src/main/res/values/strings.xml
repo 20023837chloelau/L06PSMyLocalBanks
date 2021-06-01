@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Local Banks</string>
+    <string name="DBS"><u>DBS</u></string>
+    <string name="OCBC"><u>OCBC</u></string>
+    <string name="UOB"><u>UOB</u></string>
+
+    <string name="el">English</string>
+    <string name="chi">Chinese</string>
+
+    <string name="DBSel">DBS</string>
+    <string name="DBSchi"><u>星展银行</u></string>
+
+    <string name="OCBCel">UOB</string>
+    <string name="OCBCchi"><u>华侨银行</u></string>
+
+    <string name="UOBel">UOB</string>
+    <string name="UOBchi"><u>大华银行</u></string>
+
+</resources>

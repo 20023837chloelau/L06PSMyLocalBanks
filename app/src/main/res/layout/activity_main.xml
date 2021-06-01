@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="40dp">
+
+    <TextView
+        android:id="@+id/tvDBS"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/box"
+        android:gravity="center"
+        android:text="@string/DBS"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/DBSimg"
+        android:layout_width="314.5dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="6dp"
+        android:layout_weight="1"
+        android:background="@drawable/imgboxbg"
+        android:contentDescription="@string/DBS"
+        app:srcCompat="@drawable/dbsimg" />
+
+    <TextView
+        android:id="@+id/tvOCBC"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/box2"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/OCBC" />
+
+    <ImageView
+        android:id="@+id/OCBCimg"
+        android:layout_width="314.5dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="6dp"
+        android:layout_weight="1"
+        android:background="@drawable/ocbcbg"
+        android:contentDescription="@string/OCBC"
+        app:srcCompat="@drawable/ocbc" />
+
+    <TextView
+        android:id="@+id/tvUOB"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/box3"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/UOB" />
+
+    <ImageView
+        android:id="@+id/UOBimg"
+        android:layout_width="314.5dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="6dp"
+        android:layout_weight="1"
+        android:background="@drawable/uobbg"
+        android:contentDescription="@string/UOB"
+        app:srcCompat="@drawable/uoblogo" />
+
+</LinearLayout>
